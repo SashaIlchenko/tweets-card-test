@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { getUsers } from "../../API";
+import { getUsers } from "../API";
 import { UserItem } from '../UserItem/UserItem';
-import { getAllUsers } from "../../API";
+import { getAllUsers } from "../API";
 
 import {
     TweetsList,

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { updateUsers } from '../../API';
+import { updateUsers } from '../API';
 import logo from '../../images/Logo.png';
 import backgroundImg from '../../images/BackgroundImg.png'
 import { Item, Wrapper, Avatar, TweetsInfo, FollowingBtn } from './UserItem.styled'

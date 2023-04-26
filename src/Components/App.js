@@ -1,10 +1,10 @@
 
 import './App.css';
 import { lazy } from "react";
-import Layout from './Components/Layout/Layout';
+import Layout from './Layout/Layout';
 import { Route, Routes, Navigate } from "react-router-dom";
-const Home = lazy(() => import('./Pages/Home/Home'));
-const Tweets = lazy(() => import('./Pages/Tweets/Tweets'));
+const Home = lazy(() => import('../Pages/Home/Home'));
+const Tweets = lazy(() => import('../Pages/Tweets/Tweets'));
 
 export const App = () => {
   return (
